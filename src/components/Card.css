@@ -1,0 +1,95 @@
+.cards-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product{
+    margin: 40px 0;
+    padding: 0 30px;
+}
+.all-products p{
+    font-size: 40px;
+    text-align: center;
+}
+.product ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.product ul li{
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(198, 191, 191);
+    padding-bottom: 40px;
+}
+.product ul li span{
+    color: #000000;
+}
+
+.card-div{
+    width: 300px;
+    border-radius: 15px;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.card-div img{
+    width: 190px;
+}
+.card-div .title{
+    font-size: 20px;
+}
+.card-div .price{
+    font-size: 16px;
+    font-weight: bold;
+    color: #317189;
+}
+.card-div button{
+    color: #6FB4FF;
+    background-color: #fff;
+    border: 2px solid #6FB4FF;
+    outline: none;
+    padding: 13px 35px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: .5s;
+}
+.card-div button:hover{
+    color: #fff;
+    background-color: #6FB4FF;
+    /* border: 2px solid #6FB4FF; */
+
+}
+
+.card-div:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    transition: .5s;
+}
+.view {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.view button{
+    margin: 20px;
+    color: #6FB4FF;
+    background-color: #fff;
+    border: 2px solid #6FB4FF;
+    outline: none;
+    padding: 13px 35px;
+    font-size: 16px;
+    border-radius: 15px;
+    font-weight: 500;
+    transition: .5s;
+}
+.view button:hover{
+    color: #fff;
+    background-color: #6FB4FF;
+}
